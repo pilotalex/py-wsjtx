@@ -15,9 +15,9 @@ import pywsjtx.extra.simple_server
 # Simple software for linux using gpsd to update wsjtx.
 
 
-IP_ADDRESS = '224.1.1.1'
-PORT = 5007
-UPDAE_TXT = False
+IP_ADDRESS = '224.0.0.1'
+PORT = 2237
+UPDATE_TXT = False
 
 logging.basicConfig(level=logging.DEBUG)
 
